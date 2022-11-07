@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>ES Inc</title>
     <meta property="og:image" content="https://media.discordapp.net/attachments/772191004118745109/982604644993880084/06-04-04.19.41.png">
-  <meta name="description" content="A multipurpose moderation and music bot with complete free of cost features">
+  <meta name="description" content="A multipurpose moderation and music bot with complete free of cost features.">
   <meta name="theme-color" content="#a7f6fc">
+     <! --- Meta ended -- >
   
     <link rel="icon" type="image/png" sizes="300x250" href="https://media.discordapp.net/attachments/772191004118745109/982604644993880084/06-04-04.19.41.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -17,28 +17,142 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body style="background-color: var(--background);">
-    <div id="top" style="height: 17px;">
-        <nav class="navbar navbar-light navbar-expand fixed-top" style="color: var(--second-color);border-top-width: 6px;border-top-style: solid;background: #181d21;">
-            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: var(--main-color);font-family: 'Alfa Slab One', cursive;">The Silver Suns</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div
-                    class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item"><a class="nav-link active smoothScroll" href="policy.html" class="btn btn-primary shadow-none" type="button" style="color: var(--text-color);">Policy</a></li>
-                        <li class="nav-item"><a class="nav-link smoothScroll" href="#commands" style="color: var(--text-color);">FAQS</a></li>
-                       <li class="nav-item"><a class="nav-link smoothScroll" href="#devs" style="color: var(--text-color);">Developers</a></li>
-                        <li class="nav-item"><a class="nav-link smoothScroll" href="#invite" style="color: var(--text-color);">Invite</a></li>
-                    </ul>
-            </div>
-    </div>
-    </nav>
-    </div>
+
+   <! --- Navbar section1 -- >
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #181d21;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #0D222D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" style="color: var(--main-color);font-family: 'Alfa Slab One', cursive;" class="active">The SIlver Suns</a>
+  <a href="#policy.html">Policy</a>
+  <a class="nav-link smoothScroll" href="#commands">FAQs</a>
+  <a class="nav-link smoothScroll" href="#devs">Developers</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+   <! --- Starting section1 -- >
    <div id="invite"></div>
-    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 55px;"><img class="rounded" src="https://media.discordapp.net/attachments/737664918219653241/1038476727300669480/es.png" width="150" height="150" style="margin-top: 30px;">
+    <header class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center" style="height: 418px;text-align: center;margin: 25px;"><img class="rounded" src="https://media.discordapp.net/attachments/737664918219653241/1038476727300669480/es.png" width="150" height="150" style="margin-top: 10px;">
      
         <h1 class="d-xl-flex justify-content-xl-start" style="color: var(--text-color);">Evil Supporter</h1>
-        <p style="color: var(--secondary-text-color);">A fully customizable Multipurpose bot!</p>
+        <p style="color: var(--secondary-text-color);">Imagine a bot that has all</p>
         <div class="tada animated"><div role="group" class="btn-group">    <a href="https://discord.com/oauth2/authorize?client_id=737616238221590568&scope=bot&permissions=285652479088" class="btn btn-primary shadow-none" type="button" style="margin: 5px;background-color: var(--second-color);border-color:#00a3c5;border-radius: 10px;">Invite Me</a>
     
     <a class="btn btn-primary smoothScroll shadow-none" role="button" style="margin: 5px;background-color: var(--second-color);border-color:#00a3c5;border-radius: 10px;"
@@ -97,8 +211,6 @@
         </div>
         <div></div>
     </div>
-
-  
     <div style="background-color: var(--background);"><div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-41.53,-9.56 C167.83,173.98 302.14,-60.89 534.09,89.10 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--alternate-color);"></path></svg></div></div>
     <div id="commands">
         <section>
@@ -115,9 +227,9 @@
                 </div>
             </div>
         </section><div class="container">
+
           
-    <! --- FAQS Section -- >
-          
+    <! --- FAQS section1 -- >
   <h2 class="text-center name" style="color: var(--text-color)">Frequently Asked Questions</h2>
   <div class="accordion">
          
@@ -128,14 +240,12 @@
         <p>Yes, Evil Supporter is always 24/7 online.</p>
       </div>
     </div>
-
           <div class="accordion-item">
       <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Is evil supporter free?</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
         <p>Yes, Evil supporter is completely free. However, some commands may require you to vote the bot.</p>
       </div>
     </div>
-    
           <div class="accordion-item">
       <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How can I support the development?</span><span class="icon" aria-hidden="true"></span></button>
       <div class="accordion-content">
@@ -167,13 +277,13 @@
     </div>
 
   <div id="devs"></div>
-    <! --- Dev section -- >
+  
+    <! --- Dev section1 -- >
     <div class="team-clean" style="background: rgba(0,0,0,0);">
         <div class="container" style="filter: blur(0px);padding-bottom: 0px;">
             <h3 class="text-center name" style="color: var(--text-color)">Developers</h3> 
    <div class="intro"></div>
                 <div class="row row-cols-4 d-flex d-xl-flex justify-content-center justify-content-xl-center people" style="padding-bottom: 0px;">
-
                 <div class="col-auto col-md-6 col-lg-4 yeet"><a  href="https://discord.com/users/647719827791675402"><img class="rounded-circle partner" src="https://media.discordapp.net/attachments/737679562724606012/1007266692432396299/src1.png"></a><h3>Freak</h3><p>Founder, Developer</p>
   </div>
                 <div class="col-auto col-md-6 col-lg-4 yeet"><a  href="https://discord.com/users/889594685071425648"><img class="rounded-circle partner" src="https://media.discordapp.net/attachments/737679562724606012/1007266692663103538/src2.png?width=473&height=473"></a><h3>Stacy</h3><p>Helper</p>
@@ -185,15 +295,17 @@
     </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--alternate-color)" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+    <! --- Ending section1 -- >
     <div class="footer-dark" style="background: var(--alternate-color);padding-top: 0px;padding-bottom: 0px;">
       <div class="container">
             <div class="row">
                 <div class="col item social"><a class="smoothScroll" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+            </div> 
             </div>
-            </div>
+
 <p class="copyright" style="color: var(--text-color);">The Silver Suns Inc</p>
 <p class="copyright" style="color: var(--text-color);padding: 0px;">
-
 Visit our&nbsp;<a href="https://www.patreon.com/thesilversuns" style="color: var(--link);">Patreon</a></p>
         </div>
     </div>
@@ -202,6 +314,5 @@ Visit our&nbsp;<a href="https://www.patreon.com/thesilversuns" style="color: var
     <script src="assets/js/Counting.js"></script>
     <script src="assets/js/untitled.js"></script>
 </body>
-
 </html>
 
