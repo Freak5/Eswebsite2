@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<! --- Navbar section1 -- >
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #181d21;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #000000;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150;
+}
+</style>
+</head>
+
+<! --- Starting section1 -- >
+<body style="background-color:#101014;">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+<div class="topnav">
+  <a href="#" style="color: #93bfe6;font-family: 'Alfa Slab One', cursive;" class="active">The Silver Suns</a>
+</div>
+
+<img src="https://media.discordapp.net/attachments/737664918219653241/1038476727300669480/es.png" width="150" height="150" style="margin-top: 10px;" alt="eslogo" class="center">
+<h1 style="color:#fff;font-family:Didot, serif;text-align: center;">Evil Supporter</h1>
+<p style="color:white;text-align: center;">Privacy Policy</p>
+
+<! --- Box section1 -- >
+<div style="color:#686f86;width:auto;padding:30px;margin:80px;background-color:#0e1726;border-radius:25px;line-height: 1.2;">
+
+<h5 style="color:#a9acab;">Last updated Oct 17, 2022</h5>
+These terms of service, which include and hereby incorporate the <a href="https:evilsupp.is-a.site/policy" style="color: var(--link);">Privacy Policy</a> are legal agreement between Silver Suns Inc (“we”, “us,” or “our”) and you (“you”, or “your”).
+
+By accessing our service you agree to the following Terms of service and be bound by them. If you're dissatisfied with these Terms, please discontinue use of our service immediately.
+  
+<h3 style="color:#dadcdb;font-family:Calibri, Calibri;">TERMS</h3>
+i) You are 13 years of age or older,
+
+ii) If you are the age of majority in your jurisdiction or over, that you have read, understood, and accept to be bound by the Terms,
+
+iii) If you are between 13 and the age of majority in your jurisdiction, that your legal guardian has reviewed, supervised and agrees to these Terms.
+
+We reserve the right to update these Terms, with or without notice and such modifications will apply immediately, unless stated otherwise. Your continued use of the Service will be seen as an acceptance of the revised Terms. If you object to the changes, your recourse shall be to cease using the Service.
+<h3 style="color:#dadcdb;font-family:Calibri, Calibri;">RIGHTS TO USE THE SERVICE</h3>
+Subject to your compliance with these Terms, we grant you a limited, revocable, non-exclusive, non-transferable, non-sublicensable license to use and access the Service, solely for your personal, non-commercial use.
+
+You agree not to (and not attempt to) (i) use the Service for any use or purpose other than as expressly permitted by these Terms or (ii) copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display, publicly perform, transmit, stream, broadcast or otherwise exploit the Service or any portion of the Service, except as expressly permitted in these Terms. No licenses or rights are granted to you by implication or otherwise under any intellectual property rights owned or controlled by us, except for the permissions and rights expressly granted in these Terms.
+
+We reserve the right to modify or discontinue, temporarily or permanently, the Service (or any part of it) with or without notice. We reserve the right to refuse any user access to the Services without notice for any reason, including but not limited to a violation of the Terms.
+
+If you violate these Terms, we reserve the right to issue you a warning regarding the violation or immediately terminate or suspend your use of the Service. You agree that we do not need to provide you a notice before terminating or suspending your access, but we may do so.
+<h3 style="color:#dadcdb;font-family:Calibri, Calibri;">LIABILITY</h3>
+You understand and agree that The Silver Suns limits its liability in connection with your use of the service as set forth below: under no circumstances shall the developers, subsidiaries, or affiliates, be liable to you for (i) it's own users, or other user's actions (ii) any losses, damages, or other costs incurred by users.
+<h3 style="color:#dadcdb;font-family:Calibri, Calibri;">CONTACT?</h3>
+If you have any questions or concerns about our service, you may email us at service.thesilversuns@gmail.com or by using our #support command in your server.
+</div> 
+<h5 style="color:#dadcdb;text-align: center;">The Silver Suns Inc</h5>
+</body>
+</html>
